@@ -1,0 +1,64 @@
+h1{
+    color: lightblue; 
+    font-family: arial;
+    font-size: 50px; text-align: center;
+    }
+    
+p{
+    text-indent: 30px;
+    Line-height: 1.5;
+    font-size: 16px; 
+    color: royalblue;
+    font-family: verdana; }
+    
+li{
+    color: cornflowerblue;
+    font-size: 12px;
+   font-family: cursive;}
+/* Tautan belum dikunjungi */
+a:link{
+    color: midnightblue;
+}
+
+/* Tautan yang sudah dikunjungi */
+a:visited{
+    color: green;
+}
+
+/* Tautan saat dihover */
+a:hover{
+    color: orange;
+}
+
+/* Tautan saat aktif (diklik) */
+a:active{
+    color: darkcyan;
+}
+
+/* Gaya untuk tombol */
+.button{
+    border-radius: 5px;
+    border: none;
+    background-color: midnightblue;
+    color: #FFFF;
+    text-align: center;
+    font-size: 28px;
+}
+
+/* Efek hover pada tombol */
+.button:hover {background-color: orange;}
+
+/* Efek saat tombol ditekan (active) */
+.button:active {
+    background-color: #3e8e;
+    box-shadow: 0 5px #666;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+
+    /*menengahkan gambar*/
+    display: block;
+    margin: 0px auto 0px auto;
+}
